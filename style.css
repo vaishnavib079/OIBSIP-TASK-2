@@ -1,0 +1,155 @@
+
+/*navbar starts here*/
+body{
+    background-color: antiquewhite;
+}
+
+label{
+    padding: 0 45 ;
+   text-transform: uppercase;
+   font-size: 180%;
+   color: darkmagenta;
+   
+}
+
+.header{
+    width: 100%;
+   
+}
+
+
+.header ul{
+    text-align: left;
+    padding-left:70% ;
+}
+
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 20px;
+    
+}
+
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 8px;
+    
+}
+
+.header ul li a:hover{
+ 
+  background-color: lightgrey;
+}
+
+
+/*navbar ends here*/
+
+/*home section starts here*/
+
+
+.container{
+    margin: 100px auto;
+    width: 50%;   
+    
+    
+}
+
+img{
+    float: left;
+    size: 290px;
+    padding: 0 90px 0 0 ;
+   
+   
+}
+n{
+    color: blueviolet;
+}
+
+.text{
+    font-size: 160%;
+    padding-left:5% ;
+    padding-top: 1%;
+    
+    
+   
+}
+
+.cta{
+ 
+    display: inline-block;
+    font-size: 90%;
+    color: indianred;
+    background-color: transparent;
+    border: 2px solid indianred;
+    text-decoration: none;
+  
+    
+
+}
+
+
+.cta:hover{
+    color: floralwhite;
+    background-color: indianred;
+   
+}
+
+
+h2{
+  align-content: center;
+  font-size: 35px;
+  font-style:initial;
+  margin-top: 20%;
+  margin-bottom: 1.5%;
+  margin-left: 47%;
+  text-transform: uppercase;
+  position: relative;  
+}
+
+h3{
+    align-content: center;
+    font-size: 15px;
+    font-style:initial;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+    margin-left: 43%;
+    position: relative;   
+    font-weight: 100; 
+}
+
+#about{
+ background-color:lightpink;
+ padding-bottom: 43%;
+ 
+}
+
+.icon{
+    height: 10%;
+    width: 10%;
+    
+}
+
+
+.icon img{
+    height:40%;
+    width: 20%; 
+    padding: 0 15;
+    margin-top: 140%;
+}
+
+.icon img:hover{
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+
+/*home section ends here*/
+
